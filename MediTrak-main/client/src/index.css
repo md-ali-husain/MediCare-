@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  #root {
+    @apply min-h-screen font-inter;
+  }
+
+  img {
+    @apply w-full h-full;
+  }
+
+  .container {
+    @apply w-[80%] mx-auto max-w-[1000px];
+  }
+
+  .logo-text {
+    @apply text-[2.5rem] tracking-tighter md:text-[3rem];
+  }
+
+  .menu-div {
+    @apply h-[0.2rem] bg-white rounded-md w-[1.25rem] md:h-[0.25rem] md:w-[1.5rem]  mx-auto;
+  }
+
+  .transition-ease {
+    @apply transition-all ease-in-out;
+  }
+
+  .bg-gradient {
+    @apply fixed inset-0 bg-bg-gradient -z-10;
+  }
+
+  .img-sm {
+    @apply w-[300px] h-[300px];
+  }
+
+  .img-md {
+    @apply w-[350px] h-[350px];
+  }
+
+  .collapsible-content {
+    @apply overflow-hidden;
+  }
+
+  .collapsible-content[data-state='open'] {
+    @apply animate-slide-down;
+  }
+
+  .collapsible-content[data-state='closed'] {
+    @apply animate-slide-up;
+  }
+
+  .nav-link {
+    @apply flex ml-auto justify-end items-center gap-2 transition-ease text-[2rem] hover:text-ruby;
+  }
+}
