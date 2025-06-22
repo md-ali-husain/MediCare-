@@ -153,10 +153,6 @@ To get a local copy up and running follow these simple example steps.
 
 <!-- CONTACT -->
 
-## Contact
-
-<p> Email - codyepstein@gmail.com</p>
-<a href="https://www.linkedin.com/in/cody-epstein">LinkedIn</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
